@@ -15,7 +15,7 @@ export default {
     const state = reactive({
       income: [],
       totalIncome: computed(() => {
-        let temp = 0
+        let temp = 0;
 
         if(state.income.length > 0) {
           for(let i = 0; i < state.income.length; i++){
